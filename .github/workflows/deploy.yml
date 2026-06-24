@@ -31,7 +31,7 @@ jobs:
 
       - name: Tag Docker image
         run: |
-          docker tag awsbasics-app:latest 459247205877.dkr.ecr.ap-south-1.amazonaws.com/cloud-learning:latest
+          docker tag cloud-learning:latest 459247205877.dkr.ecr.ap-south-1.amazonaws.com/cloud-learning:latest
 
       - name: Push Docker image
         run: |
